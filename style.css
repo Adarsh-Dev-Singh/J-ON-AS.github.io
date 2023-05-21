@@ -1,0 +1,61 @@
+#Player{
+    color: darkorchid;
+}
+#b{
+    opacity: 0.3;
+}
+/* body{
+    background-image: url("https://img.freepik.com/free-vector/vector-green-soccer-field-football-field-gridiron_1284-41290.jpg?w=900&t=st=1682657504~exp=1682658104~hmac=f1fef82d3b3830e7c5a06d87364109b53d31c0b5745e486efa1119b0c0494c1f");
+
+} */
+#Jambura{
+    margin-bottom: 20px;
+}
+/* .Header{
+    margin-left: 42%;
+} */
+
+*{
+    color: default;
+}
+/* H1,li,title,h4,h3,h2,h1,input,#alu,#b{
+    background-color: aqua;
+    width: 30%;
+} */
+*{
+    text-align: center;
+    text-decoration-style: dashed;
+    /* text-decoration: overline underline; */
+    text-decoration-color: purple ;
+    text-decoration-thickness:1px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.Logo{
+    letter-spacing: 10px;
+}
+input,label:hover{
+    color: blue;
+}
+a:hover{
+    color: blueviolet;
+}
+table,th,td,tr{
+    border: 2px solid;
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center; 
+    padding: 10px;   
+}
+tr:hover{
+    background-color: aqua;
+}
+.dropdown-menu:hover {
+    background-color: burlywood;
+
+}
+.dropdownbutton{
+    background-color: blue;
+}
+#button1:hover{
+   color: rgb(10, 180, 189);
+}
