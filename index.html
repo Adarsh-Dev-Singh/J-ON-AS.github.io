@@ -1,84 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Cristiano Ronaldo</title>
-        <link rel="icon" href="https://res.cloudinary.com/teepublic/image/private/s--m3ICoNL0--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1573541719/production/designs/6693240_0.jpg">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    </head>
-    <body>
-        <H1 style="color : rgb(199, 3, 199)" class="Header">He is the Best </H1>
-        <img src="https://i.pinimg.com/originals/78/34/c0/7834c0a7dc814d3699f8b0f6cbc372e9.jpg " id="Jambura" length="200" width="200"> 
-            <img src="https://th.bing.com/th/id/OIP.7TwbQjpI8f0C73uyFQcejAHaEK?pid=ImgDet&rs=1"  id="Jambura" length="400" width="500">
-                <img src="https://www4.pictures.zimbio.com/gi/Real+Madrid+CF+v+FC+Basel+1893+i_6qnUX24Scx.jpg"  id="Jambura" length="400" width="240">
-        <h2 id="Player">From an amateur player to <b>best player in the World</b></h2>
-        <h1 class="Logo">CR7</h1>
-        <img src="https://editorial.uefa.com/resources/0250-0c5117b83a72-956867b9220c-1000/cristiano_ronaldo_celebrates_his_fifth_title.jpeg" length="400" width="500">
-        <ul>
-            <li>Ronaldo holds the record for most goals and assists in the UEFA Champions League</li>
-            <li>The record for most goals in the UEFA European Championship</li>
-            <li>He also became the Real Madrid's all-time top goalscorer and the all-time top scorer in the Champions League, and finished as the competition's top scorer for six consecutive seasons between 2012 and 2018.</li>
-        </ul>
-        <img src="https://th.bing.com/th/id/OIP.CVjR_Uo4ZI4ZNnp9XIYT8QHaEK?pid=ImgDet&rs=1">
-        <br>
-        <br>
-        <table>
-            <tr>
-                <th>Achievements</th>
-                <th>Numbers</th>
-            </tr>
-            <tr>
-                <td>UCL Goals</td>
-                <td>140(42 Assists)*</td>
-            </tr>
-            <tr>
-                <td>Ucl Won</td>
-                <td>5*</td>
-            </tr>
-            <tr>
-                <td>Ballond'or</td>
-                <td>5*</td>
-            </tr>
-            <tr>
-                <td>Senior Career Goals</td>
-                <td>835*</td>
-            </tr>
-            <tr>
-                <td>Golden Boot</td>
-                <td>4*</td>
-            </tr>
-            <tr>
-                <td>International Trophies(for Country)</td>
-                <td>2*</td>
-            </tr>
-            <tr>
-                <td>...*</td>
-                <td>...*</td>
-            </tr>         
-        </table>
-        <br>
-        <br>
-        <h4>Press below to see Ronaldo's Dance</h4>
-        <a href="https://www.youtube.com/shorts/OFTMxbkzGHg" target="_blank" ><h1>Siuu</h1></a>
-        <br>
-        <i class="material-icons">cloud</i>
-        <form>
-            <h3 id="button1">Vote For Your Favourite player (Click for Special Advice)</h3>
-            <img src="https://wallpapercave.com/wp/wp9354148.jpg" length="4000" width="450">
-            <br>
-            <br>
-            <label for="alu">Cristiano Ronaldo &hearts;</label>
-            <input type="radio" id="alu" name="alu" value="Cristiano Ronaldo">
-            <br>
-            <label for="b" id="b">Lionel Messi</label>
-            <input type="radio" id="b" name="b" value="Lionel Messi">
-            <br>
-            <br>
-            <input type="submit" value="Vote">
-        </form>
+<html lang="en">
 
-        <script  src="script.js"></script>
-        
+<head>
+  <meta charset="UTF-8">
+  <title>RPG - Dragon Repeller</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    </body>
+<body>
+  <div id="game">
+    <div id="stats">
+      <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+      <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+      <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+    </div>
+    <div id="controls">
+      <button id="button1">Go to store</button>
+      <button id="button2">Go to cave</button>
+      <button id="button3">Fight dragon</button>
+    </div>
+    <div id="monsterStats">
+      <span class="stat">Monster Name: <strong><span id="monsterNameText"></span></strong></span>
+      <span class="stat">Health: <strong><span id="monsterHealthText"></span></strong></span>
+    </div>
+    <div id="text">Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the
+      town. You are in the town square. Where do you want to go? Use the buttons above.</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
