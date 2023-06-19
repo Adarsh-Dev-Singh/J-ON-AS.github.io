@@ -1,75 +1,197 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
-  background-color: #131720;
-  font-family: sans-serif;
-}
+/* body{
+    background-color: slategrey;
 
-h3 {
-  color: white;
-}
-
-.topNav {
-  overflow: hidden;
-  background-color: #131720;
-  padding: 10px;
-
-}
-
-.topNav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-}
-
-.topNav .search-container {
-  float: right;
-}
-
-form {
-  background-color: #151f30;
-  height: 43px;
-  width: 300px;
-  border-radius: 11px;
-  display: flex;
-  align-items: center;
-}
-
-input {
-  all: unset;
-  font: 15px system-ui;
-  color: #fff;
-  height: 100%;
-  width: 100%;
-  padding: 6px 9px;
-}
-
-.thumbnail {
-  height: 350px;
-  width: 250px;
-  border-radius: 19px;
-  ;
-}
-
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px 10px;
-}
-
+} */
 
 .card {
-  border-radius: 19px;
-  padding: 15px;
-  height: 450px;
-  width: 280px;
-  text-align: center;
-  background-color: #151f30;
+    border-radius: 19px;
+    height: 450px;
+    width: 280px;
+    align-content: center;
+    position: absolute ;
+    top: 100px;
+    right: 42%;
+    font-size: larger;
+
+
+  }
+
+#button1{
+position: absolute;
+top :200px;
+left:1%;
+font-size: 24px;
+text-shadow: 3px 3px 3px rebeccapurple ;
+}
+
+.img_1{
+    border-radius: 200px;
+}
+.Nav_bar{
+    padding: 20px;
+    background-color: black;
+    border-radius: 15px;
+    font-family: 'courier new';
+
+}
+.Nav_content{
+    padding-top: 20px;
+    padding: 10px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.Appearances{
+    padding-left: 1000px  ;
+    padding-top: 40px;
+    position: absolute;
+    top: 150px;
+    font-size: x-large;
+    font-family: cursive;
+    text-shadow: 3px 3px 3px rebeccapurple;
+
+} 
+#Total_goals{
+    position: absolute;
+    top: 290px;
+    padding-left: 1000px  ;
+    font-size: x-large;
+    font-family: cursive;
+    text-shadow: 3px 3px 3px rebeccapurple;
+}
+#footer{
+    position: relative;
+    top: 500px;
+    text-align: center;
+
+}
+#position{
+    font-size: 17px;
+    padding-left: 150px;
+    font-weight: 1000;
+    color: rgb(99, 98, 98);
+}
+#icon_1{
+    padding-left: 150px ;
+    height: 70px;
+}
+#forward{
+    font-size: large;
+    position: absolute;
+    left: 210px;
+    top: 742px;
+}
+#country{
+    position: absolute;
+    top: 685px;
+    left: 550px;
+    font-weight: 1000;
+    font-size: 17px;    
+    color: rgb(99, 98, 98);
+}
+#icon_2{
+    position: absolute;
+    top: 760px;
+    left: 550px;
+    height: 24px;
+}
+#portugal{
+    font-size: large;
+    position: absolute;
+    top: 743px;
+    left: 590px;
+}
+
+#dob{
+    position: absolute;
+    top: 685px;
+    font-weight: 1000;
+    left: 889px;
+    font-size: 17px;    
+    color: rgb(99, 98, 98);
+}
+#dob_d{
+    font-size: x-large;
+    color: rgb(198, 124, 28);
+    font-weight: 1000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 735px;
+    left: 890px;
+}
+
+#joined{
+    position: absolute;
+    top: 885px;
+    font-size: 17px;
+    padding-left: 150px;
+    font-weight: 1000;
+    color: rgb(99, 98, 98);
+}
+#joined_d{
+    font-size: x-large;
+    color: rgb(198, 124, 28);
+    font-weight: 1000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 935px;
+    left: 156px;
+}
+
+#debut{
+    position: absolute;
+    top: 880px;
+    left: 550px;
+    font-weight: 1000;
+    font-size: 17px;        
+    color: rgb(99, 98, 98);
+}
+#debut_j{
+    font-size: x-large;
+    color: rgb(198, 124, 28);
+    font-weight: 1000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 935px;
+    left: 550px;
+}
+#debut_t{
+    font-size: medium;
+    font-weight: 1000;
+    position: absolute;
+    top: 980px;
+    left: 558px;
+}
+
+#left{
+    position: absolute;
+    top: 880px;
+    font-weight: 1000;
+    left: 889px;
+    font-size: 17px;    
+    color: rgb(99, 98, 98);
+}
+#left_j{
+    font-size: x-large;
+    color: rgb(198, 124, 28);
+    font-weight: 1000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 932px;
+    left: 890px;
+}
+
+.vl{
+    border-left: 1px solid black;
+    position:absolute;
+    left:390px;
+    height: 80px;
+  }
+.vl1{
+    border-left: 1px solid black;
+    position:absolute;
+    left:790px;
+    height: 80px;
 }

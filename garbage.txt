@@ -1,0 +1,28 @@
+<section id="section_audio">
+        <audio controls loop>
+            <source src="Cristiano Ronaldo - Amor Mio Full Song_256k.mp3">
+        </audio>
+        <h4>Song By Cristiano Ronaldo</h4>
+    </section>
+
+    <section id="section_video">
+        <video width="500px" controls loop >
+            <source src="Cristiano Ronaldo Portugal Freekick Goal WhatsApp Status_Ronaldo Portugal  W_Full-HD.mp4">
+        </video>
+    </section>
+
+
+    <script>
+            function dothis(){
+                document.getElementById("G.O.A.T").innerHTML = "           THE G.O.A.T 🐐";
+                G.O.A.T.onclick= dothat;
+            }
+            function dothat(){
+                document.getElementById("G.O.A.T").innerHTML = "         Cristiano Ronaldo";
+                G.O.A.T.onclick= dothis;
+            }
+        </script>
+
+
+for extra text-shadow :
+    -3px -3px 3px rgb(223, 8, 44)
