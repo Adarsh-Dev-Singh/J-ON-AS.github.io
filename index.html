@@ -1,99 +1,40 @@
-<!DOCTYPE HTML>
-<HTML>
-    <HEAD>
-        <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <TITLE>Cristiano Ronaldo 2.0</TITLE>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="Images/juv_logo.jpg">
-    </HEAD>
-    
-    <BODY>
-        <header>
-        <nav class="Nav_bar">
-            <a class="Nav_content">HOME</a>
-            <a class="Nav_content">PLAYERS</a>
-            <a class="Nav_content">TURIN</a>
-            <a class="Nav_content">FIXTURES</a>
-            <a class="Nav_content">FANS</a>
-            <a class="Nav_content">MY JUVE</a>
-            <a class="Nav_content">MORE</a>
-          </nav>
-          <hr>
-        </header>
-    <!-- <a href="index_old.html" target="_blank" title="Cristiano Ronaldo 1.0"> See the previous Version(1.0)</a/> -->
-   
-    <section id="section" >
-        <div class="row">
-        <div  class="column">
-        <div class="card" >
-        <img   class="img_1" src = "Images/Cristiano_1.jpg">
-        </div>
-        </div>
-        </div>
-        <h3 id="button1"><pre id="G.O.A.T" >         Cristiano Ronaldo</pre></h3>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="heading">ROCK PAPER SCISSOR</p>
+  <button class="move-button" onclick=" 
+    choice = comChoice();
+    playGame('Rock');
+    "><img src="rock-emoji.png" class="move-icon"></button>
 
-    
-       <p style="font-size: medium; position: absolute; top:160px ; right: 150px; font-family: cursive;"> APPEARANCES</p>  <br><br> <p class="Appearances">134</p>
-        <br>
-    
-       <p style="font-size: medium; position: absolute; top:260px ; right: 150px; font-family: cursive;">TOTAL GOALS</p>  <br><br><p id="Total_goals"> 101</p>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <hr>
-    <section id="section_1">
-        <div>
-           <p id="position">POSITION<p>
-         <img id="icon_1" src="Images/icon_1.png">
-         <p id="forward">Forward</p>
-        </div>
-        <div class="vl"></div>
-    </section>
+  <button class="move-button" onclick="
+     choice = comChoice();
+     playGame('Paper');
+  "><img src="paper-emoji.png" class="move-icon"></button>
 
-    <section id="section_2">
-        <div>
-           <p id="country">COUNTRY<p>
-         <img id="icon_2" src="Images/icon_2.png">
-         <p id="portugal">Portugal</p>
-        </div>
-    </section>
+  <button class="move-button" onclick="
+    choice = comChoice();
+    playGame('Scissor');
+  "><img src="Scissor-emoji.png" class="move-icon"></button>
 
-    <section id="section_3">
-        <div>
-           <p id="dob">DATE OF BIRTH<p>
-         <p id="dob_d">5 FEB 1985</p>
-        </div>
-    </section>
+  <p class="js-result result" >Win</p>
+  <p class="js-moves" > You <img class="move-icon" src="rock-emoji.png">  <img class="move-icon"  src="Scissor-emoji.png"> Computer</p>
+  <p class="js-score score"></p>
 
-    <section id="section_4">
-        <div>
-           <p id="joined">JOINED<p>
-         <p id="joined_d">10 JUL 2018</p>
-        </div>
-    </section>
+  <button class="reset-score-button" onclick="
+    score.loss = 0;
+    score.win = 0;
+    score.tie = 0;
+    localStorage.removeItem('score');
+    updateScore();
+  ">Reset Score</button>
 
-    <section id="section_5">
-        <div>
-           <p id="debut">JUVE DEBUT<p>
-         <p id="debut_j">18 AUG 2018 </p>
-         <p id="debut_t">v Chievo (A) League </p>
-        </div>
-    </section>
+  
 
-    <section id="section_5">
-        <div>
-           <p id="left">LEFT JUVE<p>
-         <p id="left_j">27 AUG 2021 </p>
-        </div>
-    </section>
-
-<div class="vl1"></div>
-
-    <footer id="footer">
-        Author:Adarsh Dev Singh<br>
-        &copy; Copyright Reserved <br>
-        <a href="mailto:anshjamwal638@gmail.com">Mail me</a>
-
-    </footer>
-    <script src="script.js"></script>
-    </BODY>
-</HTML>
+<script src="app.js"></script>
+</body>
+</html>
